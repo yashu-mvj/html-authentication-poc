@@ -1,34 +1,74 @@
-#HTML Authentication System POC
->This project is a simple HTML-based Authentication System created as a Proof of Concept (POC).
+Authentication System (Styled with Bootstrap)
 
-#Project Overview
->The system demonstrates the basic structure of an authentication flow using only HTML. It includes multiple interconnected pages that simulate a user login system.
+Project Description
 
-#Pages Included
->login.html
->register.html
->forgot-password.html
->reset-password.html
->dashboard.html
+This project is a styled authentication system developed as part of the Fullstack Java Development Assignment. It includes multiple pages: Login, Registration, Forgot Password, Reset Password, and Dashboard.
 
-#Features
->Basic HTML form structure
->Page navigation using anchor tags
->Simple authentication flow simulation
->No CSS or JavaScript used
->Beginner-friendly project
+The project is built using HTML, Bootstrap 5, and custom CSS to create a modern, responsive, and visually appealing user interface.
 
-#Technologies Used
->HTML5
->Git
->GitHub
+Features
+* User-friendly Login Page
+* Registration Form with multiple input fields
+* Forgot Password functionality UI
+* Reset Password with show/hide password feature
+* Dashboard page with navigation bar
+* Smooth animations using Animate.css
+* Responsive design for all devices
+* Custom lavender color theme
 
-#Purpose
->This project was created as part of a learning assignment to understand:
->HTML forms
->Page navigation
->Git commands
->Repository creation and management
+Technologies Used
+* HTML5
+* CSS3
+* Bootstrap 5
+* Bootstrap Icons
+* Google Fonts (Poppins)
+* Font Awesome
+* Animate.css
 
-#Repository Visibility
->This repository is public for assignment submission and demonstration purposes.
+Project Structure
+authentication-system-styled/
+
+│── login.html  
+│── register.html  
+│── forgot-password.html  
+│── reset-password.html  
+│── dashboard.html  
+│── styles.css  
+│── README.md  
+
+└── screenshots/  
+    ├── login.png  
+    ├── register.png  
+    ├── forgot.png  
+    ├── reset.png  
+    └── dashboard.png  
+
+Screenshots
+Login Page
+![Login](screenshots/login.png)
+
+Registration Page
+![Register](screenshots/register.png)
+
+Forgot Password Page
+![Forgot](screenshots/forgot.png)
+
+Reset Password Page
+![Reset](screenshots/reset.png)
+
+Dashboard Page
+![Dashboard](screenshots/dashboard.png)
+
+How to Run the Project
+1. Download or clone the repository
+2. Open the project folder
+3. Open `login.html` in your browser
+4. Navigate through different pages using links
+
+Responsive Design
+This project is fully responsive and works on:
+* Desktop
+* Laptop
+* Tablet
+* Mobile
+
